@@ -1,0 +1,91 @@
+﻿body {
+    margin: 0;
+}
+
+
+nav ul, nav li, nav, ul, li
+{
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.btn {
+    border-radius: 20px;
+    background-color: maroon;
+    padding: 16px;
+    font-size: 0.8em;
+    width: 100%;
+    color: wheat;
+}
+
+
+ul.bgrp {
+    width: 100%;
+    max-width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+li, li.l1 {
+    padding: 0%;
+    display: table-cell;
+}
+
+.bgrp li button:hover {
+    background-color: silver;
+    color: darkred;
+    font-size: 1em;
+    text-decoration-line: underline;
+    box-shadow: 0 2px #666;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:831px) {
+    li1.l1 {
+        display: list-item;
+    }
+}
+
+th, tr, td {
+    border: 1px solid blue;
+    padding: 0%;
+}
+
+div {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-left: ridge 3px blue;
+    border-bottom: ridge 2px blue;
+}
+
+.d1 {
+    background-color: cadetblue;
+    opacity: 0.75;
+    color: darkblue;
+}
+
+.d2 {
+    background-color: darkcyan;
+    opacity: 0.75;
+    color: darkblue;
+}
+
+.d3 {
+    background-color: mediumturquoise;
+    opacity: 0.75;
+    color: darkblue;
+}
+
+.d4 {
+    background-color: aquamarine;
+    opacity: 0.75;
+    color: darkblue;
+}
+
+#more {
+    display: inline;
+}
